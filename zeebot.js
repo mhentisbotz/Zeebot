@@ -459,13 +459,13 @@ switch (command) {
 • Speed : ${process.uptime()}
 • Versi Whatsapp : ${zee.user.phone.wa_version}`
         but = [
-          { buttonId: `!allmenu`, buttonText: { displayText: '</menu>' }, type: 1 },
-          { buttonId: `!owner`, buttonText: { displayText: '</owner>' }, type: 1 }
+          { buttonId: `!allmenu`, buttonText: { displayText: 'LU YATIM?🗿' }, type: 1 },
+          { buttonId: `!owner`, buttonText: { displayText: 'OWNER GANZ😎' }, type: 1 }
         ]
         sendButLocation(from, monospace(menu), `${p}#Quotes Hari Ini!!${p}\n${p}${hasil}${p}\n${p}${wita} || ${tanggal()}${p}`, tamnel, but, {quoted: mek})
           break
     case 'sewa':
-          tes =`isi Sendiri`
+          tes =`Sewabot :\nHarga Di Website Gw Ya :\nhttps://is.gd/4ZPpIt`
           zee.sendMessage(from, tes, text, {quoted: troli})
           break  
           
@@ -491,7 +491,7 @@ switch (command) {
           but = [
            { buttonId: `${prefix}opengc`, buttonText: { displayText: 'OPEN️' }, type: 1 },
            { buttonId: `${prefix}closegc`, buttonText: { displayText: 'CLOSE' }, type: 1 }]
-          sendButton(from, menu, 'Created By Pebri', but, troli)
+          sendButton(from, menu, 'Created By Asyraf', but, troli)
           break           
 
 //>>>WibuMenu
@@ -626,13 +626,13 @@ switch (command) {
           bc = await zee.downloadMediaMessage(encmedia)
           for (let _ of anu) {
           tes = `${body.slice(4)}`
-          zee.sendMessage(_.jid, bc, { contentText: `${tes}`, footerText: `© cikobot 2K22`, buttons: [{buttonId: `${prefix}menu`,buttonText:{displayText: 'MENU'},type:1},{buttonId: `${prefix}donasi`,buttonText:{displayText:'DONASI'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: tamnel, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+          zee.sendMessage(_.jid, bc, { contentText: `${tes}`, footerText: `https://is.gd/4ZPpIt`, buttons: [{buttonId: `${prefix}menu`,buttonText:{displayText: 'MENU MIKAZU'},type:1},{buttonId: `${prefix}sewa`,buttonText:{displayText:'SEWABOT'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: tamnel, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
           }
           reply('Suksess broadcast')
           } else {
           for (let _ of anu) {
        	  textt = `${body.slice(4)}`
-          zee.sendMessage(_.jid, { contentText: `${textt}`, footerText: `${p}${wita} || ${tanggal()}${p}`, buttons: [{buttonId: `${prefix}menu`,buttonText:{displayText: 'MENU'},type:1},{buttonId: `${prefix}donasi`,buttonText:{displayText:'DONASI'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: tamnel, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+          zee.sendMessage(_.jid, { contentText: `${textt}`, footerText: `${p}${wita} || ${tanggal()}${p}`, buttons: [{buttonId: `${prefix}menu`,buttonText:{displayText: 'MENU MIKAZU'},type:1},{buttonId: `${prefix}sewa`,buttonText:{displayText:'SEWABOT'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: tamnel, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
           }
           reply('Suksess broadcast')
           }
@@ -1132,7 +1132,7 @@ switch (command) {
            } else if (Number(args[0]) === 0) {
            simin.splice(from, 1)
            fs.writeFileSync('./lib/data/simi.json', JSON.stringify(simin))
-           reply('Sukes menonaktifkan mode simi')
+           reply('Kok Dimatiin Sih Bg Asyraf:(🌹')
            } else {
            reply('1 untuk mengaktifkan, 0 untuk menonaktifkan')
            }
@@ -1226,13 +1226,13 @@ switch (command) {
 		   if (mentioned.length > 1) {
 		   teks = ''
 		   for (let _ of mentioned) {
-		   teks += `asek dapat makanan,otw mengkickmu, 🏃sksks :\n`
+		   teks += `Wkwk Kasian 🏃sksks :\n`
 		   teks += `@_.split('@')[0]`
 		   }
 		   mentions(teks, mentioned, true)
 		   zee.groupRemove(from, mentioned)
 		   } else {
-		   mentions(`asek dapat makanan,otw mengkickmu, @${mentioned[0].split('@')[0]} 🏃`, mentioned, true)
+		   mentions(`Wkwk Kasian @${mentioned[0].split('@')[0]} 🏃`, mentioned, true)
 		   zee.groupRemove(from, mentioned)
 		   }
 		   break		   
@@ -1289,7 +1289,7 @@ switch (command) {
            reply('https://chat.whatsapp.com/'+linkgc)  
            break         	   
      case 'join':case 'joingc':
-		   if (args.length < 1) return reply(`link broo?*`)
+		   if (args.length < 1) return reply(`link nya mana owner ganteng😎?*`)
 		   if (!mek.key.fromMe && !isOwner) return reply(mess.only.owner)
 		   if (!isUrl(args[0]) && !args[0].includes('https://chat.whatsapp.com/')) return reply('gkvalid..')
 	       reply('Tunggu Sebentar..')
@@ -1327,7 +1327,7 @@ switch (command) {
 		  if (!isGroup) return reply(mess.only.group)
 		  if (!isOwner && !isGroupAdmins) return reply(mess.only.admin)
 		  members_id = []
-		  teks = `🎌 Group : *${groupName}*\n💫 Jumlah member : *${groupMetadata.participants.length}*\n\n┌───⊷ *TAG ALL* ⊶\n`
+		  teks = `🎌 Group : *${groupName}*\n💫 Jumlah member : *${groupMetadata.participants.length}*\n\n┌───⊷ *TAG ALL MIKAZU* ⊶\n`
 		  for (let mem of groupMembers) {
 		  teks += `├> @${mem.jid.split('@')[0]}\n`
 	   	  members_id.push(mem.jid)
@@ -1470,11 +1470,11 @@ switch (command) {
     case 'icecold':        case 'luxury':
     case 'cloud':          case 'summersand':
     case 'horrorblood':   case 'thunder':
-          if (args.length == 0) return reply(`Example: ${prefix + command} zeebot`)
+          if (args.length == 0) return reply(`Example: ${prefix + command} MikAzu 929`)
           ini_txt = args.join(" ")
           getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=${apikey}&text=${ini_txt}`).then((gambar) => {
           but = [
-          { buttonId: `!allmenu`, buttonText: { displayText: 'back to menu' }, type: 1 }]
+          { buttonId: `!allmenu`, buttonText: { displayText: 'EMOT BARU🗿' }, type: 1 }]
           sendButImage(from, `${command + v}`, `${fake}`, gambar, but)
           })
           break
@@ -1483,12 +1483,12 @@ switch (command) {
     case 'ninjalogo':     case 'marvelstudio':
     case 'lionlogo':      case 'wolflogo':
     case 'steel3d':       case 'wallgravity':
-          if (args.length == 0) return reply(`Example: ${prefix + command} zeebot`)
+          if (args.length == 0) return reply(`Example: ${prefix + command} MikAzu 929`)
           txt1 = args[0]
           txt2 = args[1]
           getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=${apikey}&text1=${txt1}&text2=${txt2}`).then((gambar) => {
           but = [
-          { buttonId: `!allmenu`, buttonText: { displayText: 'back to menu' }, type: 1 }]
+          { buttonId: `!allmenu`, buttonText: { displayText: 'BACK TO MMK🗿' }, type: 1 }]
           sendButImage(from, `${command + v}`, `${fake}`, gambar, but)
           })
           break
@@ -1505,23 +1505,23 @@ switch (command) {
     case 'letterleaves': case 'glowingneon':
     case 'fallleaves':   case 'flamming':
     case 'harrypotter': case 'carvedwood':
-          if (args.length == 0) return reply(`Example: ${prefix + command} zeebot`)
+          if (args.length == 0) return reply(`Example: ${prefix + command} MikAzu 929`)
           ini_txt = args.join(" ")
           getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=${apikey}&text=${ini_txt}`).then((gambar) => {
           but = [
-          { buttonId: `!allmenu`, buttonText: { displayText: 'back to menu' }, type: 1 }]
+          { buttonId: `!allmenu`, buttonText: { displayText: 'MENU MUKAKU😎' }, type: 1 }]
           sendButImage(from, `${command + v}`, `${fake}`, gambar, but)
           })
           break
     case 'arcade8bit':
     case 'battlefield4':
     case 'pubg':
-          if (args.length == 0) return reply(`Example: ${prefix + command} zeebot`)
+          if (args.length == 0) return reply(`Example: ${prefix + command} MikAzu`)
           txt1 = args[0]
           txt2 = args[1]
           getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=${apikey}&text1=${txt1}&text2=${txt2}`).then((gambar) => {
           but = [
-          { buttonId: `!allmenu`, buttonText: { displayText: 'back to menu' }, type: 1 }]
+          { buttonId: `!allmenu`, buttonText: { displayText: 'BACK TO MENU🌹' }, type: 1 }]
           sendButImage(from, `${command + v}`, `${fake}`, gambar, but)
           })
           break
@@ -1541,7 +1541,7 @@ switch (command) {
     case 'galaxybat':    case 'snow3d':
     case 'birthdayday':  case 'goldplaybutton':
     case 'silverplaybutton': case 'freefire':
-          if (args.length == 0) return reply(`Example: ${prefix + command} zeebot`)
+          if (args.length == 0) return reply(`Example: ${prefix + command} MikAzu`)
           ini_txt = args.join(" ")
           getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${apikey}&text=${ini_txt}`).then((gambar) => {
           zee.sendMessage(from, gambar, image, { quoted: mek })
@@ -1556,8 +1556,15 @@ switch (command) {
 0${q+=1}.public
 0${q+=1}.runtime
 0${q+=1}.setthumb
+0${q+=1}.upswteks
+0${q+=1}.upswimage
+0${q+=1}.upswvideo
+0${q+=1}.upswaudio
+0${q+=1}.upswvoice
+0${q+=1}.upswlokasi
+0${q+=1}.upswsticker
 
- ❏「 TOOLS 」	
+ ❏「 JADI BOT 」	
 0${q+=1}.jadibot
 0${q+=1}.stopjadibot
 0${q+=1}.listjadibot
@@ -1571,28 +1578,30 @@ ${q+=1}.wallml
 ${q+=1}.cosplay
 
  ❏「 SEARCH 」
-${q+=1}.ssweb link 
-${q+=1}.lirik lirik lagu
-${q+=1}.gimage	query
-${q+=1}.pinterest query
+${q+=1}.ssweb <link>
+${q+=1}.lirik <lirik lagu>
+${q+=1}.gimage	<query>
+${q+=1}.pinterest <query>
 ${q+=1}.ytsearch query
 
  ❏「 DOWLOAD 」	
-${q+=1}.play query
-${q+=1}.tiktok link
-${q+=1}.ytmp3 link
-${q+=1}.ytmp4 link
-${q+=1}.twitter link
-${q+=1}.facebook link
-${q+=1}.Instagram link
-${q+=1}.mediafire link
+${q+=1}.play <query>
+${q+=1}.tiktok <link>
+${q+=1}.ytmp3 <link>
+${q+=1}.ytmp4 <link>
+${q+=1}.twitter <link
+
+${q+=1}.facebook <link>
+${q+=1}.Instagram <link>
+${q+=1}.mediafire link>
 
  ❏「 MEDIA 」	
-${q+=1}.attp text
-${q+=1}.tourl
-${q+=1}.toimg reply
-${q+=1}.semoji emot
-${q+=1}.sticker reply
+${q+=1}.s <reply/capt>
+${q+=1}.attp  text>
+${q+=1}.tourl <>
+${q+=1}.toimg  reply
+${q+=1}.semoji <emot+emot>
+${q+=1}.sticker <reply/capt>
 
  ❏「 UPSWBOT 」
 ${q+=1}.upswgift
@@ -1606,20 +1615,20 @@ ${q+=1}.upswsticker
 
  ❏「 GROUP 」	
 ${q+=1}.group
-${q+=1}.hacked
-${q+=1}.tagall 
-${q+=1}.hidetag 
-${q+=1}.add 62
-${q+=1}.linkgroup
+${q+=1}.hacked 
+${q+=1}.tagall <teks>
+${q+=1}.hidetag <teks>
+${q+=1}.add <number>
+{q+=1}.linkgroup
 ${q+=1}.resetlink
-${q+=1}.kick tag
-${q+=1}.join link
-${q+=1}.demote tag
-${q+=1}.promote tag
-${q+=1}.del replymes
-${q+=1}.setdesc text
-${q+=1}.setname name
-${q+=1}.setppgc replyimg
+${q+=1}.kick <tag>
+${q+=1}.join <link>
+${q+=1}.demote <tag>
+${q+=1}.promote <tag>
+${q+=1}.del <replymes>
+${q+=1}.setdesc <text>
+${q+=1}.setname <name>
+${q+=1}.setppgc <replyimg>
 ${q+=1}.antilink
 ${q+=1}.welcome
 
@@ -1628,32 +1637,32 @@ ${q+=1}.listvn
 ${q+=1}.listvideo
 ${q+=1}.liststicker
 ${q+=1}.listimg
-${q+=1}.addvn nama
-${q+=1}.addvideo nama
-${q+=1}.addsticker nama
-${q+=1}.addimage nama
-${q+=1}.getvn data
-${q+=1}.getvideo data
-${q+=1}.getsticker data
-${q+=1}.getimage data
+${q+=1}.addvn <nama>
+${q+=1}.addvideo <nama>
+${q+=1}.addsticker <nama>
+${q+=1}.addimage <nama>
+${q+=1}.getvn <data>
+${q+=1}.getvideo <data>
+${q+=1}.getsticker data>
+${q+=1}.getimage <data>
 
  ❏「 CONVERT 」
-${q+=1}.tovn replyaudio
-${q+=1}.tomp3 replyvideo
-${q+=1}.fast replyvideo 
-${q+=1}.slow replyvideo 
-${q+=1}.reverse replyvideo 
-${q+=1}.slow2 replyaudio 
-${q+=1}.bass replyaudio 
-${q+=1}.tupai replyaudio
-${q+=1}.gemuk replyaudio 
-${q+=1}.nightcore replyaudio
+${q+=1}.tovn <replyaudio>
+${q+=1}.tomp3 <replyvideo>
+${q+=1}.fast <replyvideo>
+${q+=1}.slow <replyvideo>
+${q+=1}.reverse <replyvideo>
+${q+=1}.slow2 <replyaudio>
+${q+=1}.bass <replyaudio>
+${q+=1}.tupai <replyaudio>
+${q+=1}.gemuk <replyaudio>
+${q+=1}.nightcore <replyaudio>
 
  ❏「 Text Pro Me 」	
-${q+=1}.blackpink text
-${q+=1}.neon text
-${q+=1}.greenneon text
-${q+=1}.advanceglow text
+${q+=1}.blackpink <text>
+${q+=1}.neon <text>
+${q+=1}.greenneon <text>
+${q+=1}.advanceglow <text>
 ${q+=1}.futureneon text
 ${q+=1}.sandwriting text
 ${q+=1}.sandsummer text
@@ -1757,8 +1766,8 @@ ${q+=1}.freefire text
  ❏「 EVAL 」
 ${q+=1}.term`)        
           but = [
-           { buttonId: `!owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ️' }, type: 1 },
-           { buttonId: `!sewa`, buttonText: { displayText: 'sᴇᴡᴀ' }, type: 1 }]
+           { buttonId: `!owner`, buttonText: { displayText: 'OWNER GANZ😎' }, type: 1 },
+           { buttonId: `!hack`, buttonText: { displayText: 'HACK😱' }, type: 1 }]
           sendButton(from, pp, 'Created By Pebri', but, troli)
           break         
           
@@ -1776,7 +1785,7 @@ ${q+=1}.term`)
          zee.sendMessage(from, {displayName: `Creator Bot`, vcard: vcard2}, contact, 
          { quoted: troli, 
          })
-         reply('*_Jangan Lupa Subscrib_*\nhttps://youtube.com/c/FEBZABOTZ')
+         reply('https://is.gd/4ZPpIt')
          break
              
 		                         
@@ -1787,9 +1796,9 @@ ${q+=1}.term`)
           zee.sendMessage(from, pp, text)
           }
           if (isCmd) {      
-          menu = monospace(`Maaf kak ${pushname}_<\nCommand ${command} Tidak tersedia di list menu!!\nMohon cek kembali list menu nya kak`)
+          menu = monospace(`Maaf Dek ${Pushname}`)
           but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU' }, type: 1 }]
-          sendButton(from, menu, 'Created By Pebri', but, mek)
+          sendButton(from, menu, 'Created By Asyraf', but, mek)
           break
           }
               
